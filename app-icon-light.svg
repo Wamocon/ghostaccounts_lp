@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="GhostAccounts Icon – Light">
+  <defs>
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef0ff"/>
+      <stop offset="100%" stop-color="#dde2ff"/>
+    </linearGradient>
+    <linearGradient id="indigoGrad" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="55%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="dotGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgLight)"/>
+  <!-- Ghost body: rounded top + straight sides + jagged bottom -->
+  <path d="M256,82 C190,82,148,128,148,196 L148,392 L182,368 L218,392 L256,368 L294,392 L330,368 L364,392 L364,196 C364,128,322,82,256,82Z" fill="url(#indigoGrad)" opacity="0.88"/>
+  <!-- Eyes -->
+  <circle cx="215" cy="220" r="22" fill="#1e1b4b"/>
+  <circle cx="297" cy="220" r="22" fill="#1e1b4b"/>
+  <!-- Eye shine -->
+  <circle cx="222" cy="213" r="7" fill="#ffffff" opacity="0.6"/>
+  <circle cx="304" cy="213" r="7" fill="#ffffff" opacity="0.6"/>
+  <!-- Side account dots suggesting multiple identities -->
+  <circle cx="108" cy="265" r="18" fill="url(#dotGrad)" opacity="0.55"/>
+  <circle cx="404" cy="265" r="18" fill="url(#dotGrad)" opacity="0.55"/>
+  <circle cx="94" cy="315" r="12" fill="url(#dotGrad)" opacity="0.38"/>
+  <circle cx="418" cy="315" r="12" fill="url(#dotGrad)" opacity="0.38"/>
+</svg>
